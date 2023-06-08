@@ -22,7 +22,7 @@ MonoBehaviour:
   - heading: Documentation
     text: 
     linkText: See the User manual
-    url: https://github.com/roseckyj/moebius/doc
+    url: https://github.com/roseckyj/moebius/tree/master/doc
   - heading: Source
     text: Project source as well as documentation is available at
     linkText: github.com/roseckyj/moebius
