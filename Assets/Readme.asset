@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 0be60494117b5564b8473e8ed2e59b45, type: 3}
+  title: "[Moebius]\nHatching shader"
+  sections:
+  - heading: Hatch your way
+    text: This project is a Unity shader for drawing objects in a cartoony visual style.
+    linkText: 
+    url:
+  - heading: Documentation
+    text: 
+    linkText: See the User manual
+    url: https://github.com/roseckyj/moebius/doc
+  - heading: Source
+    text: Project source as well as documentation is available at
+    linkText: github.com/roseckyj/moebius
+    url: https://github.com/roseckyj/moebius
+  - heading: About
+    text: "Created by Jonáš Rosecký\nPV097 - Visual Creativity Informatics\nSpring 2023"
+    linkText:
+    url:
+  loadedLayout: 1
