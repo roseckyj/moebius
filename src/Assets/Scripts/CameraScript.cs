@@ -76,7 +76,7 @@ public class CameraScript : MonoBehaviour {
 		AddMovement(KeyCode.LeftShift, Vector3.down);
 		Vector3 direction = transform.TransformVector(moveInput.normalized);
 
-		if (Input.GetKey(KeyCode.LeftShift))
+		if (Input.GetKey(KeyCode.LeftControl))
 			return direction * (acceleration * accSprintMultiplier); // "sprinting"
 		return direction * acceleration; // "walking"
 	}

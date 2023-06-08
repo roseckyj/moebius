@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public class Screenshot : MonoBehaviour
@@ -30,7 +31,11 @@ public class Screenshot : MonoBehaviour
             byte[] bytes;
             bytes = tex.EncodeToPNG();
 
-            string path = Application.dataPath + "/img/" + DateTime.Now.ToString("yyyy-MM-dd--HH-mm-ss") + "--R.png";
+            string folder = Path.GetFullPath("../img");
+            string filename = DateTime.Now.ToString("yyyy-MM-dd--HH-mm-ss") + "--R.png";
+            string path = Path.Combine(folder, filename);
+
+            System.IO.Directory.CreateDirectory(folder);
             System.IO.File.WriteAllBytes(path, bytes);
             Debug.Log("Saved to " + path);
 
@@ -39,7 +44,9 @@ public class Screenshot : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.T))
         {
-            string path = Application.dataPath + "/img/" + DateTime.Now.ToString("yyyy-MM-dd--HH-mm-ss") + "--T.png";
+            string folder = Path.GetFullPath("../img");
+            string filename = DateTime.Now.ToString("yyyy-MM-dd--HH-mm-ss") + "--T.png";
+            string path = Path.Combine(folder, filename);
             
             ScreenCapture.CaptureScreenshot(path, scale);
         }
