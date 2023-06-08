@@ -47,7 +47,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _BlackThreshold: 0.8
-    - _DepthSensitivity: 15
+    - _DepthSensitivity: 20
     - _HatchingAngle: 6.96
     - _HatchingDensity: 400
     - _HatchingThickness: 0.79

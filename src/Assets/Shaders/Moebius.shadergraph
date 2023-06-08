@@ -25,9 +25,6 @@
             "m_Id": "95aed490552e4be5b264dbb38fa6224a"
         },
         {
-            "m_Id": "5ee83881df3d44b2a92d1bc9c52ff135"
-        },
-        {
             "m_Id": "d6abb739af7f4671bc07c48aadcfa29e"
         },
         {
@@ -1117,13 +1114,27 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "94eea184f2c942aa9347e96f8e88ba56"
+                },
+                "m_SlotId": 2
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "a2ea4395b900406a9e8df9da9018cbcc"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "95f7e5f93f934407aa61a56928c20ee6"
                 },
                 "m_SlotId": 0
             },
             "m_InputSlot": {
                 "m_Node": {
-                    "m_Id": "a2ea4395b900406a9e8df9da9018cbcc"
+                    "m_Id": "2aebeb9560c3457e8c33de8b9d4c75d6"
                 },
                 "m_SlotId": 0
             }
@@ -1152,20 +1163,6 @@
             "m_InputSlot": {
                 "m_Node": {
                     "m_Id": "760b717372254b4fab0f892d69070196"
-                },
-                "m_SlotId": 0
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "9c5a472f39b54a67abd852d6dba6bac2"
-                },
-                "m_SlotId": 2
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "2aebeb9560c3457e8c33de8b9d4c75d6"
                 },
                 "m_SlotId": 0
             }
@@ -3431,9 +3428,6 @@
             "m_Id": "95aed490552e4be5b264dbb38fa6224a"
         },
         {
-            "m_Id": "5ee83881df3d44b2a92d1bc9c52ff135"
-        },
-        {
             "m_Id": "d6abb739af7f4671bc07c48aadcfa29e"
         },
         {
@@ -4389,10 +4383,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2595.0,
-            "y": -1101.0,
-            "width": 145.0,
-            "height": 137.99993896484376
+            "x": -27.99998664855957,
+            "y": 821.0,
+            "width": 144.99996948242188,
+            "height": 138.0
         }
     },
     "m_Slots": [
@@ -4521,8 +4515,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2598.0,
-            "y": -1222.0,
+            "x": -30.999988555908204,
+            "y": 700.0,
             "width": 152.0,
             "height": 34.0
         }
@@ -4924,36 +4918,6 @@
         "z": 0.0,
         "w": 0.0
     }
-}
-
-{
-    "m_SGVersion": 3,
-    "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
-    "m_ObjectId": "5ee83881df3d44b2a92d1bc9c52ff135",
-    "m_Guid": {
-        "m_GuidSerialized": "aca950a2-9aa9-428c-ae5c-6603db207e15"
-    },
-    "m_Name": "BackgroundColor",
-    "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "BackgroundColor",
-    "m_DefaultReferenceName": "_BackgroundColor",
-    "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": true,
-    "m_UseCustomSlotLabel": false,
-    "m_CustomSlotLabel": "",
-    "m_DismissedVersion": 0,
-    "m_Precision": 0,
-    "overrideHLSLDeclaration": false,
-    "hlslDeclarationOverride": 0,
-    "m_Hidden": false,
-    "m_Value": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0,
-        "a": 0.0
-    },
-    "isMainColor": false,
-    "m_ColorMode": 0
 }
 
 {
@@ -7103,8 +7067,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 98.00000762939453,
-            "y": 882.0,
+            "x": 98.0,
+            "y": 1000.0,
             "width": 152.0,
             "height": 34.0
         }
@@ -7356,10 +7320,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2409.0,
-            "y": -1239.0,
-            "width": 183.0,
-            "height": 250.99993896484376
+            "x": 157.99998474121095,
+            "y": 683.0,
+            "width": 182.9999542236328,
+            "height": 251.00006103515626
         }
     },
     "m_Slots": [
@@ -7694,8 +7658,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 95.0,
-            "y": 933.0,
+            "x": 93.99999237060547,
+            "y": 393.0,
             "width": 155.0,
             "height": 129.0
         }
